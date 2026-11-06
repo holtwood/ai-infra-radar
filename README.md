@@ -19,7 +19,7 @@ H100/B200 或多卡的事项必须另外判断资源。参与源码分析不等�
 
 ## 每日更新
 
-[Daily AI Infra Radar](https://github.com/open-infra-ai/ai-infra-radar/actions/workflows/daily-scan.yml)
+[Daily AI Infra Radar](https://github.com/holtwood/ai-infra-radar/actions/workflows/daily-scan.yml)
 按北京时间 **09:17**（UTC 01:17）安排运行，也可以在 Actions 页面选择 **Run workflow**。
 GitHub 的定时调度可能延迟，报告内时间戳是实际采集时间。
 
@@ -38,7 +38,7 @@ Node.js 用于工作区要求的决策笔记校验。
 
 ```bash
 gh auth login
-gh repo clone open-infra-ai/ai-infra-radar
+gh repo clone holtwood/ai-infra-radar
 cd ai-infra-radar
 npm ci
 npm test
